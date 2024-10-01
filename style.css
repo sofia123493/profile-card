@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --Green: hsl(75,94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%,20% );
+    --Grey-800: hsl(0, 0%, 12% );
+    --Grey-900: hsl( 0, 0%, 8% );
+}
+*{
+    margin: ;
+    padding: 0%;
+    color: var(--White);
+}
+body{
+    background-color: var(--Grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: var(--Grey-800);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    height: 620px;
+}
+
+.link{
+    background-color: var(--Grey-700);
+    margin-bottom: 15px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.link:hover{
+    background-color: var(--Green);
+    color: black;
+}
+img{
+    border-radius: 100px;
+    position: relative;
+    left: 110px;
+    top: 10px;
+    transition: none;
+    cursor: move;
+}
+.legenda{
+    color: hsl(75,94%, 57%);
+}
+    
